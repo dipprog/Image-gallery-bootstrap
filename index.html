@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <!-- Bootstrap version 3 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Local CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- "navbar-inverse" class is used to get black color navbar -->
+    <!-- "navbar-fixed top" class is used to fixed the navbar on the top of the screen. -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- this button is used to create hamburger like icon -->
+                <!-- Remember data-target name excluding # and id name of the div which we are collasping   
+                should be same  -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#itemToCollapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> 1M4GE5</a>
+            </div>
+            <div class="collapse navbar-collapse" id="itemToCollapse">
+                <ul class="nav navbar-nav"> 
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h1><i class="fa fa-camera-retro" aria-hidden="true"></i> The Image Gallery</h1>
+            <p>A good collection of some of the beautiful image from unsplash</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <!-- thumbnail class is used to bound the image into a particular width -->
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1597378609981-b46ae6a0ed40" alt="image 1">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                       <img src="https://images.unsplash.com/photo-1559776862-3fdefeb587f9" alt="image 2">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1597088271638-18c6359a6c16" alt="image 3">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1596820190957-96d0ca17471c" alt="image 4">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1531012278403-e5db3b774373" alt="image 5">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1597131527856-13cdb8dc050e" alt="image 6">
+                </div>
+            </div> 
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1597136788841-9f58c8c0e080" alt="image 7">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1504308805006-0f7a5f1f0f71" alt="image 8">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1597252431078-c5adbeb419ce" alt="image 9">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <!-- Javascript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
