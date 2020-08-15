@@ -1,5 +1,5 @@
-# Image-gallery-bootstrap
+# Image Gallery using Bootstrap
 
-A simple image gallery
+[Link](https://dipprog.github.io/Image-gallery-bootstrap/)
 
 
